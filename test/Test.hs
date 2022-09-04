@@ -12,4 +12,4 @@ import           Test.Tasty
 import           Test.Tasty.HUnit
 
 -- IUT
-import           Main
+import           HMAC.H2fa
