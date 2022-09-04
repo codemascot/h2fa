@@ -1,9 +1,9 @@
 module Main where
 
-import Data.Word
-import Data.Time
-import Text.Read (readMaybe, readEither)
-import HMAC.H2fa (totpSha1, decodeKey, HashAlgorithm)
+import Data.Word (Word8, Word64)
+import Data.Time (getCurrentTime)
+import Text.Read (readEither) -- `readMaybe` could've been used as well.
+import HMAC.H2fa (totpSha1, decodeKey)
 
 main :: IO ()
 main = do
