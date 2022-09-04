@@ -14,4 +14,4 @@ Copyright (c) 2022 [CodeMascot](https://www.codemascot.com/) AKA [Khan Mohammad 
 All feedback / bug reports / pull requests are welcome.
 
 ## Acknowledgment
-This project is influenced by [`Data.OTP`](https://github.com/haskell-hvr/OTP) package.
+This project is quite influenced by [`Data.OTP`](https://github.com/haskell-hvr/OTP) package. In fact the core OTP generation process has been borrowed from this package.
