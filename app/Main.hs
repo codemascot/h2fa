@@ -16,7 +16,7 @@ main = do
         time <- getCurrentTime
         -- TODO: Need refactor with maybe monad
         case decodeKey key of
-          Left  error -> putStrLn "Error!"
+          Left  error -> putStrLn "Invalid key!"
           Right value -> case readEither delay :: Either String Word64 of
                            Left error' -> putStrLn "For delay value, only integer is allowed!"
                            Right delay' -> case  readEither number :: Either String Word8 of
